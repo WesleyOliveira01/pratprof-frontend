@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: process.env.API_URL,
+  baseURL: "https://pratprof-backend-3.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },
